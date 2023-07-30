@@ -1,0 +1,67 @@
+
+ #navbarNav{
+    padding-left: 600px;
+}
+
+
+#why{
+    background-color:lightgreen; color: black;margin-left: 500px; height: 80px;width: 400px; font-size: xx-large;
+    border: 2px solid #000;
+
+}
+.bal{
+    background-color: yellow;
+    padding: 80px;
+    padding-right: 50%;
+
+    
+}
+.hi{
+    
+    padding-left: 70%;
+ 
+}
+.free{
+    position: relative;
+    bottom: 400px;
+    left: 230px;
+    width: 500px;
+
+}
+.ok{
+    text-align: center;
+   
+    padding-bottom: 30px;
+}
+#k{
+    text-align: center;
+     font-weight: bold;
+    margin-top: 30px;
+
+}
+.go{
+    background-color: rgb(201, 23, 177);
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+#ol{
+    text-align: center;
+   
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+.m{
+    position: relative;
+    padding: 200px;
+    bottom: 200px;
+}
+.size{
+    position: relative;
+    left: 230px;
+   
+}
+.u{
+    width: 200px;
+    top: 40px;
+}

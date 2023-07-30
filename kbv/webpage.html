@@ -1,0 +1,116 @@
+
+    <!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <body>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://learndigital.withgoogle.com/digitalgarage/">Google The Digital Garage</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://learndigital.withgoogle.com/digitalgarage/courses">Online Courses
+                    </a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing">cerfication</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://learndigital.withgoogle.com/digitalgarage/f2f">Live training</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://learndigital.withgoogle.com/digitalgarage/remote-work">Remote working</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://learndigital.withgoogle.com/digitalgarage/tools">Tools&resoures</a></li>
+                      <li><a class="dropdown-item" href="https://learndigital.withgoogle.com/digitalgarage/faqs">Help&FAQs</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="">Feedback</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <a class="btn-primary"  href="https://learndigital.withgoogle.com/digitalgarage/sign-in" >sign-in</a>
+                <a class="btn btn-primary" href="https://learndigital.withgoogle.com/digitalgarage/we-have-moved" role="button">Register</a>
+                
+                </form>
+
+              </div>
+            </div>
+          </nav>
+          
+          
+
+    <title>Verify Certificate</title>
+    <style>
+        .first {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #result {
+            font-weight: bold;
+        }
+        .edit{
+          margin-top: 9%%;
+          margin-left: 40px;
+          margin-right: 50px;
+        }
+        #certificateNumber{
+          margin: 5%;
+          padding-left: 30%;
+          padding-right: 30%;
+                text-align: center;    
+        }
+        .hi{
+          position: relative ;
+          left: 510px;
+        }
+
+    </style>
+     <div class="edit">
+    <h1 class="first">Verify Your Certificate</h1>
+    
+    <h6 class="edit"> Enter your certificate number to verify its authenticity:</h6>
+
+    <input type="text" id="certificateNumber" placeholder="Certificate ID">
+    <br>
+    <button onclick="verifyCertificate()" class="hi">VALIDATE</button>
+     
+
+    <script>
+        function verifyCertificate() {
+            const certificateNumber = document.getElementById('certificate ID').value;
+
+            const validCertificateNumber = "12345";
+
+            if (certificateNumber === validCertificateNumber) {
+                document.getElementById('result').innerText = "Certificate is valid!";
+            } else {
+                document.getElementById('result').innerText = "Certificate is not valid.";
+            }
+        }
+    </script>
+
+     </div>     
+        
+        <div class="b">
+        <span>
+           A Grow With Google PROGRAMME
+        </span>
+        </div>
+      </body>
+    </head>
+</html>
